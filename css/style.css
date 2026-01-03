@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #cccc;
+    gap: 40px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background-color: white;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+header .header-left .logo-link{
+    display: inline-block;
+}
+
+header .header-left .logo{
+    height: 86px;
+    width: 178px;
+    background-image: url("../assets/Rushly-logo.png");
+    background-size: cover;
+    background-position: center;
+    border-right: 1px solid #cccc;
+}
+
+header .header-left .address{
+    margin: 0px 20px 0px 20px;
+}
+
+header .header-left .address h3{
+    font-weight: 800;
+    font-size: medium;
+    margin-bottom: 6px;
+}
+
+header .header-left .address p{
+    font-size: smaller;
+}
+
+header .search-box{
+    flex-grow: 1;
+    border : 1px solid #eeeeee;
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8 ;
+    border-radius: 20px;
+}
+
+header .search-box input{
+    flex-grow: 1;
+    padding: 15px;
+    border:none;
+    background: transparent;
+}
+
+header .search-box input:focus{
+    outline: none;
+}
+header .search-box button{
+    padding: 15px;
+    border: none;
+    background: transparent;
+}
+
+header .header-btns{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    gap: 30px;
+}
+
+header .header-btns button{
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 15px;
+    height: 53.4px;
+    line-height: 1;
+    white-space: nowrap;
+}
+header .header-btns .log-in{
+    padding: 15px 30px 15px 30px;
+    background-color: transparent;
+    border: 2.5px solid #de4f1f;
+}
+
+header .header-btns .my-cart{
+    padding: 15px 20px 15px 20px;
+    background-color: #da3429;
+    border: 2.5px solid #da3429;
+    color: white;
+}
+
+.banner-section{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.banner-section img{
+    width: 100%;
+}
+
+.order-banner{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.order-banner .order-banner-items{
+    flex-basis:27%;
+    margin: 1%;
+}
+
+.order-banner .order-banner-items img{
+    width: 100%;  
+}
+
+.catagory{
+    display: flex;
+    max-width: 1280px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.catagory .catagory-items{
+    flex-basis: 10%;
+}
+
+.catagory .catagory-items img{
+    width: 100%;
+}
+
+.products-section{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.products-section .heading-row{
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-section .product-row{
+    width: 100%;
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    gap: 1.5%;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.products-section .heading-row h2{
+    font-size: 22px;
+}
+
+.products-section .heading-row a{
+    color:#db3529;
+    text-decoration: none;
+    font-size: 18px ;
+}
+
+.products-section .product-row .product-item{
+    flex-basis: 15%;
+    border: 1px solid #cccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px #e7e7e7cc;
+}
+
+.products-section .product-row .product-item .product-img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.products-section .product-row .product-item .product-img img{
+    width: 75%;
+    padding: 2.5px;
+}
+
+.products-section .product-row .product-item .product-img p{
+    background-color: #f8f8f8;
+    color: #da3429;
+    display: flex;
+    width: 70px;
+    gap: 1px;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.products-section .product-row .product-item .product-img p img{
+    width: 18px;
+}
+
+.products-section .product-row .product-item .product-content{
+    padding: 0px 10px 10px 10px;
+}
+
+.products-section .product-row .product-item .product-content h3{
+    font-size: 13px;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.products-section .product-row .product-item .product-content p{
+    font-size: 14px;
+}
+
+.products-section .product-row .product-item .product-content .btn-price-outer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-section .product-row .product-item .product-content .btn-price-outer b{
+    font-size: 14px;
+}
+
+.products-section .product-row .product-item .product-content .btn-price-outer button{
+    padding: 7px 22px 7px 22px;
+    border: 1px solid #da3429;
+    border-radius: 10px;
+    color: #da3429;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 80px;
+    padding: 40px 0px 40px 0px;   
+}
+
+.footer-wrap{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.footer-wrap .footer-row-1{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-wrap .footer-row-1 .links{
+    flex-basis: 30%;
+}
+
+.footer-wrap .footer-row-1 h3{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-wrap .footer-row-1 .useful-links{
+    display: flex;
+}
+
+.footer-wrap .footer-row-1 .catagories{
+    flex-basis: 70%;
+    
+}
+
+.footer-wrap .footer-row-1 .links ul{
+    flex-basis: 33%;
+    list-style: none;
+}
+
+.footer-wrap .footer-row-1 .catagories ul{
+    flex-basis: 33%;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.footer-wrap .footer-row-1  ul li{
+    margin: 15px;
+}
+
+.footer-wrap .footer-row-1 ul li a{
+    text-decoration: none;
+    color: #da3429
+
+}
+
+.footer-wrap .footer-row-3 p{
+    font-size: 15px;
+    padding: 20px 0px;
+    line-height: 20px;
+    color: #da3429;
+}
+
+.footer-wrap .footer-row-2{
+    margin:30px 0px 15px 0px;
+    width: 100%;
+    background-color: #f8f9f9;
+    box-shadow: 0px 0px 10px 1px #e7e7e7cc;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.footer-wrap .footer-row-2 p {
+    flex-basis: 40%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-wrap .footer-row-2 .download-links{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    flex-basis: 30%;
+}
+
+.footer-wrap .footer-row-2 .download-links h5{
+    font-weight: 600;
+    color: #da3429;
+}
+
+.footer-wrap .footer-row-2 .download-links img{
+    width: 100px;
+}
+
+.footer-wrap .footer-row-2 .social-links{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-wrap .footer-row-2 .social-links i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #da3429;
+    color: #f8f8f8;
+}
+
+
+
+
+
