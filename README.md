@@ -1,4 +1,3 @@
-# Rushly ⚡ 
 # Rushly ⚡  
 ### Quick Commerce Landing Page
 
@@ -7,7 +6,7 @@ This project is **frontend-only** and focuses on clean UI, layout structure, and
 ---
 
 ## 🚀 Live Demo
-🔗 https://joydeep-devx.github.io/rushly-landing-page/
+🔗 https://joydeep-devx.github.io/quick-commerce-landing-page/
 
 ---
 
@@ -34,21 +33,22 @@ This project is **frontend-only** and focuses on clean UI, layout structure, and
 ---
 
 ## 📂 Project Structure
-rushly-landing-page/
+```
+quick-commerce-landing-page/
 ├── index.html
 ├── css/
-│ ├── style.css
-│ └── media.css
-├── assets/
-│ └── images/
+│   ├── style.css
+│   └── media.css
+├── assets
 └── README.md
+```
 ---
 
 ## 🎯 Learning Outcomes
 - Better understanding of responsive layouts  
 - Practical usage of Flexbox and Grid  
 - Improved CSS organization and scalability  
-- Experience hosting projects using GitHub Pages  
+- Experience hosting projects using GitHub Pages
 ---
 
 ## 📌 Future Improvements
