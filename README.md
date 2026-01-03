@@ -11,7 +11,11 @@ This project is **frontend-only** and focuses on clean UI, layout structure, and
 ---
 
 ## 📸 Preview
+### Desktop View
+![Rushly Desktop Preview](assets/images/rushly-desktop-preview.png)
 
+### Mobile View
+![Rushly Mobile Preview](assets/images/rushly-mobile-preview.png)
 ---
 
 ## 🛠️ Tech Stack
